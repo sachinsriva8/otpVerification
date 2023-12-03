@@ -22,7 +22,6 @@ const OtpViewer = () => {
     }
   };
 
-
   const showInputFields = () => {
     return noOfInput.map((item, index) => {
       return (
@@ -34,6 +33,7 @@ const OtpViewer = () => {
             ref={(e) => {
               testRef.current[index] = e;
             }}
+            placeholder="0"
           />
         </div>
       );
@@ -44,5 +44,3 @@ const OtpViewer = () => {
 };
 
 export default OtpViewer;
-
-
