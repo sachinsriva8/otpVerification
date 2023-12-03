@@ -33,7 +33,7 @@ const OtpViewer = () => {
             ref={(e) => {
               testRef.current[index] = e;
             }}
-            placeholder="0"
+            placeholder="1"
           />
         </div>
       );
